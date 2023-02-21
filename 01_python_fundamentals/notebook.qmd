@@ -1,0 +1,112 @@
+---
+title: "Python fundamentals"
+format: ipynb
+---
+
+## Data types
+### Integers
+```{python}
+type(100)
+```
+
+### Floating-point numbers
+```{python}
+type(3.14)
+```
+
+### Strings
+```{python}
+type("Hello world!")
+```
+
+### Boolean
+```{python}
+type(True)
+```
+
+### Lists
+```{python}
+type([1, 2, "three"])
+```
+
+### Dictionaries
+```{python}
+type({"first_name": "Harison", "last_name": "Gachuru"})
+```
+
+### Sets
+```{python}
+type({1, 2, 3, 5, 7})
+```
+
+## Math operators
+### Addition
+```{python}
+3 + 5
+```
+
+### Subtraction
+```{python}
+100 - 20
+```
+
+### Multiplication
+```{python}
+2 * 5
+```
+
+### Division
+```{python}
+100 / 2
+```
+
+### Integer division/floored quotient
+```{python}
+23 // 4
+```
+
+### Modulus/remainder
+```{python}
+23 % 4
+```
+
+### Exponentiation
+```{python}
+10 ** 2
+```
+
+## String operators
+### Concatenation
+```{python}
+"Hello" + " " + "world" + "!"
+```
+
+### Replication
+```{python}
+"Hello world!" * 3
+```
+
+## Variables
+```{python}
+x = 5
+x
+```
+
+```{python}
+text = "Hello world!"
+text
+```
+
+Question: What happens when we reference an unassigned variable?
+
+## Reading and writing files
+```{python}
+file_ref = open("example.txt", "w")
+file_ref.write("The quick brown fox jumps over the lazy dog")
+file_ref.close()
+```
+
+```{python}
+with open("example.txt") as file:
+    print(file.read())
+```

@@ -1,0 +1,60 @@
+---
+title: "Python fundamentals"
+author: "Harison Gachuru"
+date: 2023-02-22
+format: 
+    revealjs:
+        embed-resources: true
+---
+
+## Basic data types
+- Integers e.g: `-20`, `100`
+- Floating-point numbers e.g: `0.5`, `3.142`
+- Strings e.g: `"Hello world!"`
+- Boolean e.g: `True`
+
+## More data types
+- Lists e.g: `[1, 2, "three"]`
+- Dictionaries e.g: `{"first_name": "Harison", "last_name": "Gachuru"}`
+- Sets e.g: `{1, 2, 3, 5, 7}`
+
+## Math operators
+| Operation | Operator |
+|----------|-----------|
+| Addition | + |
+| Subtraction | - |
+| Multiplication | * |
+| Division | / |
+| Integer division/floored quotient | // |
+| Modulus/remainder | % |
+| Exponentiation | ** |
+
+## String operators
+| Operation | Operator |
+|----------|-----------|
+| Concatenation | + |
+| Replication | * |
+
+## Variables
+Think of variables as containers for data.
+
+### Rules for creating valid variable names
+- Use only letters, numbers and underscores(_)
+- Don't start with a number
+
+### Tip
+- The Python convention is to use snake-case, i.e: lower case letters
+    and underscores
+
+## Introduction to functions
+- Functions in Python are similar to Mathematical functions in that
+they take inputs and transform them to an output.
+
+- Some of the built-in functions include: `type`, `print`, `input`, `int`,
+    `str`, `float`, `dict`, `list`, `set`
+
+- You can get access to other functions by *importing* them
+
+## More resources
+- [Python for beginners](https://www.sololearn.com/learning/1157)
+- [Automate the boring stuff with Python](https://automatetheboringstuff.com/)
