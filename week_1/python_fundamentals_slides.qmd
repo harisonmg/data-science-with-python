@@ -2,20 +2,21 @@
 title: "Python fundamentals"
 author: "Harison Gachuru"
 date: 2023-02-22
-format: 
+format:
     revealjs:
         embed-resources: true
 ---
 
 ## Basic data types
-- Integers e.g: `-20`, `100`
-- Floating-point numbers e.g: `0.5`, `3.142`
+- Integers e.g: `-20`
+- Floating-point numbers e.g: `0.5`
 - Strings e.g: `"Hello world!"`
 - Boolean e.g: `True`
 
 ## More data types
-- Lists e.g: `[1, 2, "three"]`
-- Dictionaries e.g: `{"first_name": "Harison", "last_name": "Gachuru"}`
+- Lists e.g: `["Audi", "BMW", "Mercedes"]`
+- Tuples e.g: `("SUV", "saloon/sedan", "hatchback")`
+- Dictionaries e.g: `{"make": "Suzuki", "model": "Alto"}`
 - Sets e.g: `{1, 2, 3, 5, 7}`
 
 ## Math operators
@@ -42,18 +43,19 @@ Think of variables as containers for data.
 - Use only letters, numbers and underscores(_)
 - Don't start with a number
 
-### Tip
+### Tips
 - The Python convention is to use snake-case, i.e: lower case letters
     and underscores
+- Use evocative names
 
 ## Introduction to functions
 - Functions in Python are similar to Mathematical functions in that
 they take inputs and transform them to an output.
 
 - Some of the built-in functions include: `type`, `print`, `input`, `int`,
-    `str`, `float`, `dict`, `list`, `set`
-
-- You can get access to other functions by *importing* them
+    `str`, `float`, `dict`, `list`, `tuple`, `set`
+- You can get access to other functions by **importing** them from
+    the *standard library* or other *installed* packages
 
 ## More resources
 - [Python for beginners](https://www.sololearn.com/learning/1157)

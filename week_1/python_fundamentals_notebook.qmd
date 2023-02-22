@@ -26,12 +26,17 @@ type(True)
 
 ### Lists
 ```{python}
-type([1, 2, "three"])
+type(["Audi", "BMW", "Mercedes"])
+```
+
+### Tuples
+```{python}
+type(("SUV", "saloon/sedan", "hatchback"))
 ```
 
 ### Dictionaries
 ```{python}
-type({"first_name": "Harison", "last_name": "Gachuru"})
+type({"make": "Suzuki", "model": "Alto"})
 ```
 
 ### Sets
@@ -110,3 +115,8 @@ file_ref.close()
 with open("example.txt") as file:
     print(file.read())
 ```
+
+## Error handling
+## Imports
+## Iteration
+## Flow control

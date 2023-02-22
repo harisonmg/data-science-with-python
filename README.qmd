@@ -23,8 +23,9 @@ By the end of the course you should:
 - Introduction to functions
 - Reading and writing files
 - Error handling
+- Imports
+- Iteration
 - Flow control
-- Modules and imports
 
 ### Data visualisation
 - Review of graphical EDA techniques

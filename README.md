@@ -20,13 +20,15 @@ By the end of the course you should:
 
 ### Python fundamentals
 
+- Data types
+- Operators
 - Variables
-- Basic data types
-- Flow control
-- Functions
-- Modules and imports
+- Introduction to functions
 - Reading and writing files
 - Error handling
+- Imports
+- Iteration
+- Flow control
 
 ### Data visualisation
 
