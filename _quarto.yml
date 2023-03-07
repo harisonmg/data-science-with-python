@@ -5,6 +5,8 @@ website:
   title: "Data Science with Python"
   navbar:
     right:
+      - href: notebooks.qmd
+        text: Notebooks
       - href: slides.qmd
         text: Slides
 
