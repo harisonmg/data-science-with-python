@@ -1,0 +1,9 @@
+---
+title: "Slides"
+listing:
+  contents: slides
+  type: grid
+  sort: ["date"]
+  sort-ui: true
+  filter-ui: true
+---

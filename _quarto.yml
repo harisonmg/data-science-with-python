@@ -3,6 +3,10 @@ project:
 
 website:
   title: "Data Science with Python"
+  navbar:
+    right:
+      - href: slides.qmd
+        text: Slides
 
 format:
   html:
