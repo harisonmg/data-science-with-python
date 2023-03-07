@@ -1,6 +1,5 @@
 ---
 title: "Data Science with Python"
-format: gfm
 ---
 
 ## Objectives
