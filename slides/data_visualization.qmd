@@ -1,0 +1,122 @@
+---
+title: "Data visualization"
+author: "Harison Gachuru"
+date: 2023-03-08
+---
+
+## Reading data from files with pandas
+```{.python code-line-numbers="1-4|1,6-7|9-10"}
+import pandas as pd
+
+# read data
+df = pd.read_csv("/path/to/file.csv")
+
+# alternative: read from excel
+df = pd.read_csv("/path/to/file.xlsx", sheet_name="sheet name")
+
+# sanity check: view the dataframe
+df.info()
+```
+
+## Automated EDA with pandas-profiling
+```{.python code-line-numbers="1-4|1,6-8|7,10-11"}
+from ydata_profiling import ProfileReport
+
+# in a jupyter notebook cell
+ProfileReport(df)
+
+# to use jupyter widgets
+report = ProfileReport(df)
+report.to_widgets()
+
+# to save to disk
+report.to_file("/path/to/report.html")
+```
+
+# Creating static plots with seaborn and matplotlib
+## Histogram
+- Used to view the distribution of a continuous variable
+```{.python code-line-numbers="1-4|1,6-11"}
+import seaborn as sns
+
+# simplest way
+sns.histplot(data=df, x="variable")
+
+# preferred way
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+sns.histplot(data=df, x="variable", ax=ax)
+plt.show()
+```
+## Box plot
+- Used to view the distribution of a continuous variable
+```{.python code-line-numbers="1-4|1,6-11"}
+import seaborn as sns
+
+# simplest way
+sns.boxplot(data=df, x="variable")
+
+# preferred way
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+sns.boxplot(data=df, x="variable", ax=ax)
+plt.show()
+```
+
+## Scatterplot
+- Used to explore the relationship between two continuous variables
+```{.python code-line-numbers="1-4|1,6-11"}
+import seaborn as sns
+
+# simplest way
+sns.scatterplot(data=df, x="independent_variable", y="dependent_variable")
+
+# preferred way
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+sns.scatterplot(data=df, x="independent_variable", y="dependent_variable", ax=ax)
+plt.show()
+```
+
+## Line plot
+- Used to explore the relationship between  a continuous vs a discrete variable
+```{.python code-line-numbers="1-4|1,6-11"}
+import seaborn as sns
+
+# simplest way
+sns.lineplot(data=df, x="independent_variable", y="dependent_variable")
+
+# preferred way
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+sns.lineplot(data=df, x="independent_variable", y="dependent_variable", ax=ax)
+plt.show()
+```
+
+## Bar plot
+- Used to visualize a continuous variable vs a discrete/categorical variable
+```{.python code-line-numbers="1-4|1,6-11"}
+import seaborn as sns
+
+# simplest way
+sns.barplot(data=df, x="independent_variable", y="dependent_variable")
+
+# preferred way
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+sns.barplot(data=df, x="independent_variable", y="dependent_variable", ax=ax)
+plt.show()
+```
+
+## More resources
+- [Pandas documentation](https://pandas.pydata.org/docs/index.html)
+- [Seaborn documentation](https://seaborn.pydata.org/index.html)
+
+:::{.callout-tip}
+Check the seaborn and matplotlib galleries for inspiration on creating outstanding plots
+:::

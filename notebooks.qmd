@@ -1,0 +1,6 @@
+---
+title: "Notebooks"
+listing:
+  contents: notebooks
+  type: table
+---
