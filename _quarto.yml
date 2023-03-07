@@ -9,6 +9,12 @@ website:
         text: Notebooks
       - href: slides.qmd
         text: Slides
+  page-footer:
+    center:
+      - icon: github
+        href: https://github.com/harisonmg
+      - icon: twitter 
+        href: https://twitter.com/harisonmg
 
 format:
   html:
