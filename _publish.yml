@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 142b19e6-7966-4606-b520-4ccbd5cdd008
+      url: 'https://data-science-with-python.netlify.app'
