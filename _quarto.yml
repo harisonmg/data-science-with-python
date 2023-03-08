@@ -3,6 +3,8 @@ project:
 
 website:
   title: "Data Science with Python"
+  repo-url: https://github.com/harisonmg/data-science-with-python
+  repo-actions: [issue]
   navbar:
     right:
       - href: notebooks.qmd
